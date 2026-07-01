@@ -1,20 +1,20 @@
-# Portfolio QA – Reyes Díaz  
-Este portafolio web muestra mis proyectos de **QA**. Incluye un **formulario de contacto** conectado a una API que permite guardar los datos del formulario en la base de datos y mostrarlos en la página de Admin.
+# QA Portfolio – Soraya Cazorla  
+This web portfolio showcases my **QA projects**. It includes a **contact form** connected to an API that allows form data to be stored in a database and displayed on the Admin page.
 
-🔗 [Ver Web Portfolio QA](https://bootcamp-qa.github.io/template-portfolioqa/)
+🔗 [View QA Portfolio web](https://bootcamp-qa.github.io/template-portfolioqa/)
 
 
-## ⚙️ Funcionalidades principales
-- Menú de navegación
-- Cabecera con información personal.
-- Sección con enlaces y descripción de proyectos QA.
-- Sección de formación.  
-- Formulario de contacto.  
-- Página Admin para consulta de datos del formulario.
+## ⚙️ Main Features
+- Navigation menu.
+- Header with personal information.
+- Sections with links and descriptions of QA projects.
+- Education section.  
+- Contact form.  
+- Admin page to view submitted form data.
 
 ---
 
-## 🛠 Tecnologías y herramientas utilizadas
+## 🛠 Technologies and tools used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -30,30 +30,30 @@ Este portafolio web muestra mis proyectos de **QA**. Incluye un **formulario de 
 
 
 
-## 🗄 Base de Datos
-Se ha creado una base de datos en Supabase para almacenar los datos enviados desde el formulario de contacto.  
-- La carpeta `sql` incluye todas las **consultas SQL de prueba**, que permiten generar, consultar, editar o eliminar datos de prueba según sea necesario.  
-- Proyecto Supabase (requiere acceso): [Supabase Project](https://supabase.com/dashboard/project/vtizuqohukyyxvcshmbs)  
+## 🗄 Database
+A Supabase database has been created to store data submitted through the contact form. 
+- The `sql` folder includes all **test SQL queries**, which allow you to create, read, update, or delete test data as needed.
+- Supabase project (requires access): [Supabase Project](https://supabase.com/dashboard/project/vtizuqohukyyxvcshmbs)  
 
-## 🗄 API de Formulario
-Se ha generado una API que permite agregar, editar, consultar y eliminar datos de la base de datos creada en supabase.
-- URL API (requiere acceso): [Supabase API](https://vtizuqohukyyxvcshmbs.supabase.co)  
-- Documentación de la API: [Documentación API](./apidoc.pdf) 
+## 🗄 Form API
+An API has been created to add, edit, retrieve, and delete data from the Supabase database.
+- URL API (requires access): [Supabase API](https://vtizuqohukyyxvcshmbs.supabase.co)  
+- API documentation: [API documentation](./apidoc.pdf) 
 ---
 
 ## ⚙️ QA Testing
-### Pruebas exploratorias de la web
-Se realizaron pruebas exploratorias en navegadores web y móviles para asegurar el correcto funcionamiento de la interfaz y la interacción con el usuario.
+### Exploratory web testing
+Exploratory testing was performed on web and mobile browsers to ensure correct UI behavior and user interaction.
 
-### Pruebas de API
-- Colección en POSTMAN (requiere acceso): [POSTMAN Collection](https://www.postman.com/bootcampqatesting/api-usuarios/collection/x5mwyvf/api-de-usuarios) 
-Se probó la **API del formulario de contacto** y se validó el correcto almacenamiento de los datos en la base de datos. 
-- Se probaron las operaciones **GET, POST, PATCH y DELETE**, verificando respuestas correctas y manejo de errores.  
-- Se implementó un **flujo de integración continua** con GitHub Actions, ejecutando automáticamente las pruebas de API mediante Newman cada semana. 
+### API testing
+- POSTMAN Collection (requires access): [POSTMAN Collection](https://www.postman.com/bootcampqatesting/api-usuarios/collection/x5mwyvf/api-de-usuarios) 
+- The **contact form API** was tested and correct data storage in the database was validated.
+- The **GET, POST, PATCH and DELETE** operations were tested, verifying correct responses and error handling.
+- A **CI workflow** was implemented using GitHub Actions, automatically running API tests with Newman every week.
 
 ---
 
-## 👩‍💻 Autora
-**Reyes Cuesta – QA Junior**  
-[🔗 LinkedIn](https://www.linkedin.com/in/reyescuesta)
+## 👩‍💻 Author
+**Soraya Cazorla – QA Junior**  
+[🔗 LinkedIn](https://www.linkedin.com/in/soraya-cazorla-guill%C3%A9n-438b74259/)
 
