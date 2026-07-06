@@ -33,7 +33,7 @@ This web portfolio showcases my **QA projects**. It includes a **contact form** 
 ## 🗄 Database
 A Supabase database has been created to store data submitted through the contact form. 
 - The `sql` folder includes all **test SQL queries**, which allow you to create, read, update, or delete test data as needed.
-- Supabase project (requires access): [Supabase Project](https://supabase.com/dashboard/project/vtizuqohukyyxvcshmbs)  
+- Supabase project (requires access): [Supabase Project](https://supabase.com/dashboard/project/vzivzwonwuowsdfdbpma)  
 
 ## 🗄 Form API
 An API has been created to add, edit, retrieve, and delete data from the Supabase database.
