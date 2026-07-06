@@ -46,7 +46,7 @@ An API has been created to add, edit, retrieve, and delete data from the Supabas
 Exploratory testing was performed on web and mobile browsers to ensure correct UI behavior and user interaction.
 
 ### API testing
-- POSTMAN Collection (requires access): [POSTMAN Collection](https://www.postman.com/bootcampqatesting/api-usuarios/collection/x5mwyvf/api-de-usuarios) 
+- POSTMAN Collection (requires access): [POSTMAN Collection](https://sorayacazorlag-1947955.postman.co/workspace/form2~29de0c24-ede1-4ed5-b8cd-eb7962aa5a80/collection/53399983-aa636239-9b28-465c-ae93-ad67a6c5b0c6?action=share&source=copy-link&creator=53399983s) 
 - The **contact form API** was tested and correct data storage in the database was validated.
 - The **GET, POST, PATCH and DELETE** operations were tested, verifying correct responses and error handling.
 - A **CI workflow** was implemented using GitHub Actions, automatically running API tests with Newman every week.
