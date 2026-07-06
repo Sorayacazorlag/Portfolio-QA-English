@@ -37,7 +37,7 @@ A Supabase database has been created to store data submitted through the contact
 
 ## 🗄 Form API
 An API has been created to add, edit, retrieve, and delete data from the Supabase database.
-- URL API (requires access): [Supabase API](https://vzivzwonwuowsdfdbpma.supabase.co)  
+- URL API (requires access): [Supabase API](https://vzivzwonwuowsdfdbpma.supabase.co/rest/v1/form2)  
 - API documentation: [API documentation](./apidoc.pdf) 
 ---
 
