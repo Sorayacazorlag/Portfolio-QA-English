@@ -22,14 +22,14 @@ function enviarFormulario(event) {
 //4. CAMBIA SI QUIERES EL MENSAJE QUE MUESTRA AL ENVIAR EL FORMULARIO (OPCIONAL) 
 function mostrarMensajeExito(){
   var formMessage = document.getElementById('formMessage'); //id del elemento de la pagina donde se va a mostrar mensaje
-  formMessage.textContent = "Formulario enviado correctamente"; //mensaje que va a mostrarse
+  formMessage.textContent = "Form sent successfully"; //mensaje que va a mostrarse
   formMessage.style.color  = "green"; //color en el que se va a mostrar
 };
 
 //5. CAMBIA SI QUIERES EL MENSAJE QUE MUESTRA AL ENVIAR EL FORMULARIO (OPCIONAL) 
 function mostrarMensajeError(){
   var formMessage = document.getElementById('formMessage'); //id del elemento de la pagina donde se va a mostrar el mensaje
-  formMessage.textContent = "Error al enviar el formulario"; //mensaje que va a mostrarse
+  formMessage.textContent = "Error submitting form"; //mensaje que va a mostrarse
   formMessage.style.color  = "red"; //color en el que se va a mostrar
 };
 
